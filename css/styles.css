@@ -138,13 +138,10 @@ a {
 
 .nav-link.active::after {
   width: 100%;
-}
-
-.nav-link:hover {
   color: var(--ocean-color);
 }
 
-.nav-link.active {
+.nav-link:hover {
   color: var(--ocean-color);
 }
 
