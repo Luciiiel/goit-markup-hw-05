@@ -136,7 +136,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:visited::after {
+.nav-link.active::after {
   width: 100%;
 }
 
