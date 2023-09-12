@@ -144,6 +144,10 @@ a {
   color: var(--ocean-color);
 }
 
+.nav-link.active {
+  color: var(--ocean-color);
+}
+
 /* address links */
 .address-list {
   list-style: none;
