@@ -126,7 +126,16 @@ a {
 
 .nav-link:hover::after {
   width: 100%;
-  transition: width 0.2s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* width 0.2s linear */
+}
+
+.nav-link:active::after {
+  width: 100%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* width 0.2s linear */
 }
 
 .nav-link:hover {
@@ -189,7 +198,7 @@ a {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover {
@@ -316,7 +325,7 @@ a {
   border-radius: 20px;
   width: 40px;
   height: 40px;
-  transition: 0.5s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socmed-item:hover {
@@ -373,7 +382,7 @@ a {
   height: 88px;
   padding: 16px 32px;
   fill: currentColor;
-  transition: 0.5s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer section */
@@ -429,7 +438,7 @@ a {
   height: 40px;
   background-color: var(--iris-color);
   border-radius: 20px;
-  transition: 0.5s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socmed-item:hover {
@@ -473,7 +482,7 @@ a {
   border-radius: 4px;
   border: 1px solid var(--cornflower-color);
   padding: 12px 24px;
-  transition: 0.5s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-item-button:hover {
